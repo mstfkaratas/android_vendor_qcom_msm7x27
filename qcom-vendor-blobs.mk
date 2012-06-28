@@ -12,6 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Adreno200 firmware blobs
+PRODUCT_COPY_FILES += \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/qcom/msm7x27/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+
 # Adreno200 graphic blobs for ARMv6
 PRODUCT_COPY_FILES += \
     vendor/qcom/msm7x27/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
